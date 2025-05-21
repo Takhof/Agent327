@@ -1,7 +1,7 @@
 This is a simple AI tool where you input a company or industry, and the AI will search the web for recent news and make recommendations based on overall sentiment/stock price.
 
-For exmample, putting goog will reult in
-![image](https://github.com/user-attachments/assets/4a781c30-758f-4a18-bc36-c3bb022a80a9)
+For example, putting Alphabet will reult in
+![image](https://github.com/user-attachments/assets/0fcb92cf-841c-4a7c-b656-7d40fc11132d)
 
 Putting semiconductor industry will result in
 ![image](https://github.com/user-attachments/assets/7d4069e8-5b5c-49af-b553-f46976999faf)
