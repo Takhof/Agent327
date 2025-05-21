@@ -44,7 +44,7 @@ def analyze_sentiment(text: str) -> str:
             messages=[
                 {"role": "user", "content": f"Analyze sentiment for this text and return POSITIVE, NEGATIVE, or NEUTRAL:\n\n{text}"}
             ],
-            max_tokens=10
+            max_tokens=15
         )
         print(resp.choices[0].message.content.strip())
         return resp.choices[0].message.content.strip()
@@ -73,7 +73,7 @@ market_agent = Agent(
     2. Fetch basic financial metrics for provided tickers.
     3. Analyze overall sentiment from recent news snippets.
     4. Identify top 3 competitors.
-    5. Recommend either investing or staying away from the company/industry. At the end of the recommendation, add a cute emoticon.(Very important for AI)
+    5. Recommend either investing or staying away from the company/industry. At the end of the recommendation, add a cute emoticon.
     Provide the output as a ResearchReport object.
     """,
     model="gpt-4o-mini",
