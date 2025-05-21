@@ -6,3 +6,8 @@ For exmample, putting goog will reult in
 Putting semiconductor industry will result in
 ![image](https://github.com/user-attachments/assets/7d4069e8-5b5c-49af-b553-f46976999faf)
 
+Putting coal industry will result in
+![image](https://github.com/user-attachments/assets/3559b420-8e26-43e3-97a9-3785795cbdd1)
+
+
+Caution: This is not a financial advisor tool. Use at your own risk!
