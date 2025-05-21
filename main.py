@@ -13,8 +13,6 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 # ====== Tool Functions ======
 @function_tool
 def search_company_info(query: str) -> str:
-    """Web search for company or market info, returns aggregated snippets."""
-    # Use built-in WebSearchTool under the hood
     snippets = WebSearchTool().search(query)
     return "\n".join(snippets[:5])  # top 5 results
 
@@ -82,3 +80,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
