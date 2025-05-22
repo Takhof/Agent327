@@ -16,7 +16,7 @@ Steps:
 - analyze_sentiment でニュースの感情を判定
 - 上位3社の競合を列挙
 - 最後に投資推奨 or 回避を返却
-- キュートなEmoticonとか色々入れちゃったりする感じで
+- キュートなEmoticonなどは時々いれて可愛くしてください
 
 Output MUST conform to ResearchReport.
     """,

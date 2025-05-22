@@ -35,7 +35,7 @@ def analyze_sentiment(text: str) -> str:
             resp = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": f"Analyze sentiment:\n\n{text}"}],
-                max_tokens=15
+                max_tokens=5
             )
             return resp.choices[0].message.content.strip().upper()
         except RateLimitError:

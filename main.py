@@ -5,8 +5,8 @@ from tools import fetch_multiple_financials
 from models import ResearchReport
 
 async def main():
-    target = input("調査したい会社名や業界を入力してね: ")
-    result = await Runner.run(market_agent, [{"role": "user", "content": target}], max_turns=15)
+    target = input("調査したい会社名を入力してね: ")
+    result = await Runner.run(market_agent, [{"role": "user", "content": target}], max_turns=20)
     report: ResearchReport = result.final_output_as(ResearchReport)
 
     try:

@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
-    logger.error("OPENAI_API_KEY が設定されていません。")
+    logger.error("OPENAI_API_KEYが作動してません。")
     raise SystemExit("環境変数エラー")
 
 # OpenAIクライアント
