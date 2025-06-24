@@ -7,6 +7,3 @@ Putting coal industry will result in
 
 
 Caution: This is not a financial advisor tool. Use at your own risk!
-
-
-327 33
